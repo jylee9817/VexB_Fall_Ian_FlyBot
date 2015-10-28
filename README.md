@@ -1,7 +1,8 @@
 # VexB_Fall_Ian_FlyBot
 
 <b><h3>Ian's VEX bot for 2016 Game</h3></b>
-<div>
+
+<img src="http://www.robotlabo.eu/img/VexCompet.png" style="width:128px; height:200px">
 
 <b>Basic functions</b>:
 - Drive: Uses Two Motor
@@ -9,5 +10,5 @@
 - Intake: will be added soon
 - Autonomous: Going backward then Shooting the Ball
 
-<b>Updated on 10/28/2015</b>:
-- added function that stores boolean to variable HalfWheelOn and FullWheelOn
+<b>Last Update on 10/28/2015</b>:
+- 10/28/2015: added function that stores boolean to variable HalfWheelOn and FullWheelOn
