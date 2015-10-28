@@ -2,7 +2,7 @@
 
 <b><h3>Ian's VEX bot for 2016 Game</h3></b>
 
-<img src="http://www.robotlabo.eu/img/VexCompet.png" style="width:128px; height:200px">
+<img src="https://www.robotevents.com/vexawards/vexrwc.png" style="width:128px; height:200px">
 
 <b>Basic functions</b>:
 - Drive: Uses Two Motor
