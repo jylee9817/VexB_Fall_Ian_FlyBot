@@ -13,7 +13,7 @@ void setFlyWheelMotor(int speed)
 
 }
 
-void fullFlyWheelIsTrue(bool fullFlyWheelOn, bool fullFlyWheelOff) //launches the ball with the full speed
+void fullFlyWheelIsTrue(bool fullFlyWheelOn, bool fullFlyWheelOff)//stores boolean data into the vraibel fly wheel on
 {
 	if(fullFlyWheelOn == true) //port 6U-Off and 6D-On
 	{
@@ -29,13 +29,13 @@ void fullFlyWheelIsTrue(bool fullFlyWheelOn, bool fullFlyWheelOff) //launches th
 	}
 }
 
-void launchFullFlyWheel()
+void launchFullFlyWheel()//launches the ball with the full speed
 {
 		if(FlyWheelOn == true) //port 6U-Off and 6D-On
 	{
 		setFlyWheelMotor(127);
 	}
-	else if (FlyWheelOff == false)
+	else if(FlyWheelOn == false)
 	{
 		setFlyWheelMotor(0);
 	}
@@ -45,13 +45,13 @@ void launchFullFlyWheel()
 	}
 }
 
-void launchHalfFlyWheel(bool halfFlyWheelOn, bool halfFlyWheelOff) //launches the ball with the half of the speed
+void halfFlyWheelIsTrue(bool halfFlyWheelOn, bool halfFlyWheelOff) //stores boolean data into the vraibel fly wheel on
 {
-	if(HalfWheelOn == true)
+	if(halfFlyWheelOn == true)
 	{
-		HalfWheelOn = true);
+		HalfWheelOn = true;
 	}
-	else if (HalfWheelOff == true)
+	else if(halfFlyWheelOn == true)
 	{
 		HalfWheelOn = false;
 	}
@@ -61,13 +61,13 @@ void launchHalfFlyWheel(bool halfFlyWheelOn, bool halfFlyWheelOff) //launches th
 	}
 }
 
-void launchFullFlyWheel()
+void launchHalfFlyWheel() //launches the ball with the half of the speed
 {
 		if(HalfWheelOn == true) //port 5U-Off and 5D-On
 	{
 		setFlyWheelMotor(64);
 	}
-	else if (HalfWheelOff == false)
+	else if(HalfWheelOn == false)
 	{
 		setFlyWheelMotor(0);
 	}

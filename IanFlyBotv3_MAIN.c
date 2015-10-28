@@ -35,8 +35,10 @@ task usercontrol()
 	{
 		updateDrive();
 		variables();
-		launchFullFlyWheel(vexRT[Btn6D], vexRT[Btn6U]);
-		launchHalfFlyWheel(vexRT[Btn5D], vexRT[Btn5U]);
+		fullFlyWheelIsTrue(vexRT[Btn6D], vexRT[Btn6U]);
+		halfFlyWheelIsTrue(vexRT[Btn5D], vexRT[Btn5U]);
+		launchFullFlyWheel();
+		launchHalfFlyWheel();
 	}
 }
-//updated on 10/26/2015, added file Ian_Fly_Wheel.h in order to allow the launcher to work. Updated by: Juyeong Lee
+//updated on 10/28/2015, added new function that stores boolean data for the launcher Updated by: Juyeong Lee
