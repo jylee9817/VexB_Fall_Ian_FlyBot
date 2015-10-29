@@ -65,7 +65,7 @@ void launchHalfFlyWheel() //launches the ball with the half of the speed
 {
 		if(HalfWheelOn == true) //port 5U-Off and 5D-On
 	{
-		setFlyWheelMotor(64);
+		setFlyWheelMotor(95);
 	}
 	else if(HalfWheelOn == false)
 	{
