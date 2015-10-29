@@ -18,6 +18,7 @@
 #include "Vex_Competition_Includes.c"
 #include "Drive.h"
 #include "Ian_Fly_Wheel.h"
+#include "TestMoveLauncher.h"
 
 void pre_auton()
 {
@@ -39,6 +40,7 @@ task usercontrol()
 		halfFlyWheelIsTrue(vexRT[Btn5D], vexRT[Btn5U]);
 		launchFullFlyWheel();
 		launchHalfFlyWheel();
+		testShoot(vexRT[Ch2], vexRT[Ch4]);
 	}
 }
 //updated on 10/29/2015, inverted left bottom and right top. changed return value for boolean function Updated by: Juyeong Lee

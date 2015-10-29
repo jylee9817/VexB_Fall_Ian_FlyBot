@@ -6,18 +6,19 @@ bool HalfWheelOn = false;
 void setFlyWheelMotor(int speed)
 {
 
-	motor[LeftSideTop] = speed; //inverted
-	motor[LeftSideBottom] = speed;
-	motor[RightSideTop] = speed;
-	motor[RightSideBottom] = speed; //inverted
+	motor[LeftSideTop] = speed;
+	motor[LeftSideBottom] = speed; //inverted
+	motor[RightSideTop] = speed; //inverted
+	motor[RightSideBottom] = speed;
 
 }
 
-void fullFlyWheelIsTrue(bool fullFlyWheelOn, bool fullFlyWheelOff)//stores boolean data into the vraibel fly wheel on
+void fullFlyWheelIsTrue(bool fullFlyWheelOn, bool fullFlyWheelOff)//stores boolean data into the variable fly wheel on
 {
 	if(fullFlyWheelOn == true) //port 6U-Off and 6D-On
 	{
 		FlyWheelOn = true;
+		HalfWheelOn = false;
 	}
 	else if (fullFlyWheelOff == true)
 	{
@@ -31,7 +32,7 @@ void fullFlyWheelIsTrue(bool fullFlyWheelOn, bool fullFlyWheelOff)//stores boole
 
 void launchFullFlyWheel()//launches the ball with the full speed
 {
-		if(FlyWheelOn == true) //port 6U-Off and 6D-On
+		if(FlyWheelOn == true)
 	{
 		setFlyWheelMotor(127);
 	}
@@ -45,11 +46,12 @@ void launchFullFlyWheel()//launches the ball with the full speed
 	}
 }
 
-void halfFlyWheelIsTrue(bool halfFlyWheelOn, bool halfFlyWheelOff) //stores boolean data into the vraibel fly wheel on
+void halfFlyWheelIsTrue(bool halfFlyWheelOn, bool halfFlyWheelOff) //stores boolean data into the variable fly wheel on
 {
 	if(halfFlyWheelOn == true)
 	{
 		HalfWheelOn = true;
+		FlyWheelOn = false;
 	}
 	else if(halfFlyWheelOn == true)
 	{
