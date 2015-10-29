@@ -25,7 +25,7 @@ void fullFlyWheelIsTrue(bool fullFlyWheelOn, bool fullFlyWheelOff)//stores boole
 	}
 	else
 	{
-		FlyWheelOn = false;
+		return;
 	}
 }
 
@@ -57,7 +57,7 @@ void halfFlyWheelIsTrue(bool halfFlyWheelOn, bool halfFlyWheelOff) //stores bool
 	}
 	else
 	{
-	 HalfWheelOn = false;
+	 return;
 	}
 }
 
