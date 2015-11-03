@@ -40,7 +40,7 @@ task usercontrol()
 		halfFlyWheelIsTrue(vexRT[Btn5D], vexRT[Btn5U]);
 		launchFullFlyWheel();
 		launchHalfFlyWheel();
-		testShoot(vexRT[Ch2], vexRT[Ch4]);
+		//testShoot(vexRT[Ch2], vexRT[Ch4]);
 	}
 }
 //updated on 10/29/2015, inverted left bottom and right top. changed return value for boolean function Updated by: Juyeong Lee

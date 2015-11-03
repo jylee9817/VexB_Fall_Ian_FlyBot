@@ -4,7 +4,7 @@ int straight = 0;
 
 void setForwardValue(int driveY)
 {
-	if(abs(driveY) > DEADZONE)
+	if(driveY > DEADZONE || driveY < -DEADZONE)
 	{
 		straight = driveY;
 	}
@@ -16,7 +16,7 @@ void setForwardValue(int driveY)
 
 void setTurnValue(int driveX)
 {
-	if(abs(driveX) > DEADZONE)
+	if(driveX > DEADZONE || driveX < -DEADZONE)
 	{
 		turn = driveX;
 	}
@@ -28,13 +28,11 @@ void setTurnValue(int driveX)
 
 void setMotorValue()
 {
-	motor[leftDriveMotor] = straight - turn;
-	motor[rightDriveMotor] = straight + turn;
+	motor[leftDriveMotor] = straight + turn;
+	motor[rightDriveMotor] = straight - turn;
 }
 
 void drive()
 {
-	setForwardValue(vexRT[Ch1]);
-	setTurnValue(vexRT[Ch2]);
 	setMotorValue();
 }

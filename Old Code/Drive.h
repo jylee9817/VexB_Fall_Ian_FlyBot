@@ -6,7 +6,7 @@ int DEADZONE = 15;
 
 void variables()
 {
-	driveY = vexRT[Ch3];
+	driveY = vexRT[Ch2];
 	driveX = vexRT[Ch1];
 }
 
