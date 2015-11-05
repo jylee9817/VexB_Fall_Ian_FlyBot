@@ -15,7 +15,7 @@ void setFullFlyWheel(bool on)
 		return;
 	}
 }
-
+//set boolean as true
 void setHalfFlyWheel(bool on)
 {
 	if(on == true)
@@ -41,7 +41,7 @@ void setFullFlyWheelOff(bool off)
 		return;
 	}
 }
-
+//set boolean as false
 void setHalfFlyWheel(bool off)
 {
 	if(off == true)
@@ -53,7 +53,7 @@ void setHalfFlyWheel(bool off)
 		return;
 	}
 }
-
+//launches the ball with full speed
 void fullFlyWheel()
 {
 	if(fullWheelOn == true)
@@ -71,7 +71,7 @@ void fullFlyWheel()
 		motor[rightBottomLauncher] = 0;
 	}
 }
-
+//launches ball with the half of the speed
 void halfFlyWheel()
 {
 	if(halfWheelOn == true)
