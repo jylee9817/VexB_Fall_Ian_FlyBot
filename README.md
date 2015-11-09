@@ -5,9 +5,9 @@
 <img src="https://www.robotevents.com/vexawards/vexrwc.png" style="width:128px; height:200px">
 
 <b>Basic functions</b>:
-- Drive: Uses Two Motor
+- Drive: Uses Two Motor (might be adding two extra motor for extra power)
 - Launcher(Fly Wheel): Uses Two Motor(Left and Right with bottom and top motor)
-- Intake: uses two motor to intake the ball
+- Intake: Uses two motor to intake the ball
 - Autonomous: Going backward then Shooting the Ball
 
 <b>Last Update on 11/09/2015</b>:
