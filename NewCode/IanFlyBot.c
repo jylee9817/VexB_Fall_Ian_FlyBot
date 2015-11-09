@@ -39,3 +39,6 @@ task usercontrol()
 		halfFlyWheel(vexRT[Btn6U]);
 	}
 }
+
+//updated on 11/09/2015, added Intake file
+//Updated by: Juyeong Lee
