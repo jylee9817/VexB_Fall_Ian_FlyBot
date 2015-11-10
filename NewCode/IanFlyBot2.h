@@ -42,7 +42,7 @@ void setFullFlyWheelOff(bool off)
 	}
 }
 //set boolean as false
-void setHalfFlyWheel(bool off)
+void setHalfFlyWheelOff(bool off)
 {
 	if(off == true)
 	{
@@ -58,10 +58,10 @@ void fullFlyWheel()
 {
 	if(fullWheelOn == true)
 	{
-		motor[leftTopLauncher] = 127;
-		motor[leftBottomLauncher] = 127;
-		motor[rightTopLauncher] = 127;
-		motor[rightBottomLauncher] = 127;
+		motor[leftTopLauncher] = 110;//was 127
+		motor[leftBottomLauncher] = 110;
+		motor[rightTopLauncher] = 110;
+		motor[rightBottomLauncher] = 110;
 	}
 	else
 	{
@@ -76,10 +76,10 @@ void halfFlyWheel()
 {
 	if(halfWheelOn == true)
 	{
-		motor[leftTopLauncher] = 95;
-		motor[leftBottomLauncher] = 95;
-		motor[rightTopLauncher] = 95;
-		motor[rightBottomLauncher] = 95;
+		motor[leftTopLauncher] = 75; //was 95
+		motor[leftBottomLauncher] = 75;
+		motor[rightTopLauncher] = 75;
+		motor[rightBottomLauncher] = 75;
 	}
 	else
 	{
