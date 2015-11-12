@@ -7,7 +7,7 @@
 <b>Basic functions</b>:
 - Drive: Uses Two Motor (might be adding two extra motor for extra power)
 - Launcher(Fly Wheel): Uses Two Motor(Left and Right with bottom and top motor)
-- Intake: Uses two motor to intake the ball
+- Intake: Uses two motor to intake the ball(Will be added before the Granada Comp)
 - Autonomous: Going backward then Shooting the Ball
 
 <b>Last Update on 11/09/2015</b>:
