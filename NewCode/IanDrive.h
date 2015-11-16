@@ -7,7 +7,7 @@ int straight = 0;
 
 //Sets Forward and Turn Value to assign motor value
 //Sets forward value to driveY if drive Y is bigger then Deadzone or smaller then negative Deazone
-void setForwardValue(int driveY)
+void setForwardValue(int driveY)//drive Y is going to equal to Y axis value of joystick
 {
 	if(driveY > DEADZONE || driveY < -DEADZONE)
 	{
@@ -20,7 +20,7 @@ void setForwardValue(int driveY)
 }
 
 //Sets turn value to drive X if dirve X is bidgger then Deadzone or smaller then negative Deazone
-void setTurnValue(int driveX)
+void setTurnValue(int driveX)//drive X is going to equal to Y axis value of joystick
 {
 	if(driveX > DEADZONE || driveX < -DEADZONE)
 	{
