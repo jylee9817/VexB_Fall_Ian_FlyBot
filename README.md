@@ -1,6 +1,6 @@
 # VexB_Fall_Ian_FlyBot
 
-<b><h3>599B's VEX bot for 2016 Game</h3></b>
+<b><title>599B's VEX bot for 2016 Game</title></b>
 
 <img src="https://www.robotevents.com/vexawards/vexrwc.png" style="width:128px; height:200px">
 
