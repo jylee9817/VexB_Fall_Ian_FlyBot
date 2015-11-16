@@ -17,4 +17,5 @@
 - 11/5/2015: Created old code file and new code file becuase the old code is not fully functional
 - 11/09/2015.1: Changed the motor value because the motor was too slow to shoot the ball
 - 11/09/2015.2: Added intake roller file and added update statement on the main file
-- 11/16/2015: Added comment into the code to make the code more legible
+- 11/16/2015.1: Added comment into the code to make the code more legible
+- 11/16/2015.2: Deleted uneeded file - old FlyWheel file
