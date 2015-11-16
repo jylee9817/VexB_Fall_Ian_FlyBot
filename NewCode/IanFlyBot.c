@@ -1,3 +1,4 @@
+//set port for motors
 #pragma config(Motor,  port2,           leftTopLauncher, tmotorVex393_MC29, openLoop)
 #pragma config(Motor,  port3,           leftBottomLauncher, tmotorVex393_MC29, openLoop, reversed)
 #pragma config(Motor,  port5,           rightTopLauncher, tmotorVex393_MC29, openLoop, reversed)
@@ -13,42 +14,48 @@
 #pragma autonomousDuration(20)
 #pragma userControlDuration(120)
 
+//including all file that are needed
 #include "Vex_Competition_Includes.c"
 #include "IanDrive.h"
 #include "IanFlyWheel.h"
 #include "IanFlyBot2.h"
 
-void pre_auton()
+void pre_auton() //pre-autonomous code
 {
-  bStopTasksBetweenModes = true;
+  bStopTasksBetweenModes = true; //auto generated code
 }
 
-task autonomous()
+task autonomous() //autonomous code
 {
-	AutonomousCodePlaceholderForTesting();
+	AutonomousCodePlaceholderForTesting(); //filler code
 }
 
-task usercontrol()
+task usercontrol()//uset control code
 {
 
-	while (true)
+	while (true) //needed code; do not touch this
 	{
-		setForwardValue(vexRT[Ch2]);
-		setTurnValue(vexRT[Ch1]);
+		//set motor value
+		setForwardValue(vexRT[Ch2]); //sets forward value of drive to y axis joystick
+		setTurnValue(vexRT[Ch1]); //sets "turn" value of drive to x axis joystick
+
+		//activates drive function
 		drive();
 
 		//fullFlyWheel(vexRT[Btn5U]);
 		//halfFlyWheel(vexRT[Btn6U]);
 
-		setFullFlyWheel(vexRT[Btn5U]);
-		setFullFlyWheelOff(vexRT[Btn5D]);
-		setHalfFlyWheel(vexRT[Btn6U]);
-		setHalfFlyWheelOff(vexRT[Btn6D]);
+		//set up for FlyWheel Function
+		setFullFlyWheel(vexRT[Btn5U]); //moves the launcher with full speed (when 5U is pressed)
+		setFullFlyWheelOff(vexRT[Btn5D]); //stops the launcher(full) (when 5D is pressed)
+		setHalfFlyWheel(vexRT[Btn6U]); //moves the launcher with half of the speed (when 6U is pressed)
+		setHalfFlyWheelOff(vexRT[Btn6D]); //stops the launcher(half) (when 6D is pressed)
 
+		//activates the FlyWheel Function
 		fullFlyWheel();
 		halfFlyWheel();
 	}
 }
 
-//updated on 11/09/2015, added Intake file
+//updated on 11/16/2015, adding header and coment to the code
 //Updated by: Juyeong Lee
