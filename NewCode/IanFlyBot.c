@@ -1,4 +1,4 @@
-//set port for motors
+//Sets port for motors
 #pragma config(Motor,  port2,           leftTopLauncher, tmotorVex393_MC29, openLoop)
 #pragma config(Motor,  port3,           leftBottomLauncher, tmotorVex393_MC29, openLoop, reversed)
 #pragma config(Motor,  port5,           rightTopLauncher, tmotorVex393_MC29, openLoop, reversed)
