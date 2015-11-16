@@ -1,7 +1,7 @@
 //Drive
 
 //Initializing the variables
-int DEADZONE = 15;
+int DEADZONE = 15; //makes the joystick less sensetive - higher the value, less sensetive the joystick becomes
 int turn = 0;
 int straight = 0;
 

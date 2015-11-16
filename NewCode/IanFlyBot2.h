@@ -66,7 +66,7 @@ void fullFlyWheel()
 	if(fullWheelOn == true) //when fullWheelOn boolean is true(when it is moving)
 	{
 		motor[leftTopLauncher] = 110;//was 127
-		motor[leftBottomLauncher] = 110;
+		motor[leftBottomLauncher] = 110;//higher the value, faster the motor, further the launch distance
 		motor[rightTopLauncher] = 110;
 		motor[rightBottomLauncher] = 110;
 	}
@@ -85,7 +85,7 @@ void halfFlyWheel()
 	if(halfWheelOn == true) //when halfWheelOn boolean is true(when it is moving)
 	{
 		motor[leftTopLauncher] = 75; //was 95
-		motor[leftBottomLauncher] = 75;
+		motor[leftBottomLauncher] = 75;//higher the value, faster the motor, further the launch distance
 		motor[rightTopLauncher] = 75;
 		motor[rightBottomLauncher] = 75;
 	}
