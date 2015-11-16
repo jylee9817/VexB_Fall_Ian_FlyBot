@@ -8,10 +8,10 @@ bool halfWheelOn = false; //makes the launcher og half speed
 //Storing Boolean value
 void setFullFlyWheel(bool on)
 {
-	if(on == true)
+	if(on == true)//if the parameter is ture
 	{
-		fullWheelOn = true;
-		halfWheelOn = false;
+		fullWheelOn = true; //set full wheel on as true
+		halfWheelOn = false; //stops the halfwheel on commend to prevent code colision
 	}
 	else
 	{
