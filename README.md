@@ -6,14 +6,24 @@ By [Juyeong Lee](https://github.com/khungryapple)
 
 ## Basic functions:
 
+Drive:
 ```console
-- Drive: Uses Two Motor (might be adding two extra motor for extra power)
-- Launcher(Fly Wheel): Uses Two Motor(Left and Right with bottom and top motor)
-- Intake: Uses two motor to intake the ball(Will be added before the Granada Comp)
-- Autonomous: Going backward then Shooting the Ball')
+Uses Two Motor (might be adding two extra motor for extra power)
 ```
+Launcher(Fly Wheel): 
+```console
+Uses Two Motor(Left and Right with bottom and top motor)
+```
+Intake:
+```console
+Uses two motor to intake the ball(Will be added before the Granada Comp)
+```
+Autonomous:
+```console
+Going backward then Shooting the Ball')
+```
+## Last Update on 11/18/2015:
 
-<b>Last Update on 11/18/2015</b>:
 - 10/28/2015: added function that stores boolean to variable HalfWheelOn and FullWheelOn
 - 10/29/2015.1: Inverted left bottom and right top Motor.
 - 10/29/2015.2: Changed return value of Half Wheel On and Full Wheel On. 
