@@ -1,6 +1,7 @@
 # 599B's VEX bot for 2016 Game
 
 <img src="https://www.robotevents.com/vexawards/vexrwc.png" style="width:128px; height:200px">
+
 By [Juyeong Lee](https://github.com/khungryapple)
 
 ## Basic functions:
