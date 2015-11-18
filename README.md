@@ -42,4 +42,6 @@ Going backward, intakes the ball, then Shoots the Ball
 
 - <b>11/16/2015.2:</b> Deleted uneeded file - old FlyWheel file
 
-- <b>11/18/2015:</b> Adding two motor for the intake roller
+- <b>11/18/2015.1:</b> Adding two motor for the intake roller
+
+- <b>11/18/2015.2:</b> Revision of the comment to make it more understandable
