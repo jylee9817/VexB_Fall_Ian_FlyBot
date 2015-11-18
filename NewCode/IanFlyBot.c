@@ -60,5 +60,5 @@ task usercontrol()//uset control code
 	}
 }
 
-//Updated on 11/16/2015, adding header and coment to the code
+//Updated on 11/18/2015, adding header and coment to the code
 //Updated by: Juyeong Lee

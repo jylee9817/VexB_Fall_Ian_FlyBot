@@ -19,3 +19,4 @@
 - 11/09/2015.2: Added intake roller file and added update statement on the main file
 - 11/16/2015.1: Added comment into the code to make the code more legible
 - 11/16/2015.2: Deleted uneeded file - old FlyWheel file
+- 11/18/2015: Adding two motor for the intake roller
