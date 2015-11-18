@@ -49,6 +49,8 @@ task usercontrol()//user control code
 		//halfFlyWheel(vexRT[Btn6U]);
 
 		//set up for FlyWheel Function: sets boolean to true or false so that launcher will be activated
+		//Has a problem in which only half speed launcher works with full speed
+
 		setFullFlyWheel(vexRT[Btn5U]); //sets boolean for full speed launcher to true(when 5U is pressed)
 		setFullFlyWheelOff(vexRT[Btn5D]); //sets boolean for stopping launcher to true(when 5D is pressed)
 		setHalfFlyWheel(vexRT[Btn6U]); //sets boolean for half speed launcher to true(when 6U is pressed)
