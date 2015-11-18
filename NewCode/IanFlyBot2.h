@@ -1,17 +1,18 @@
 //Fly Wheel Launcher
+//Has a problem in which only half speed launcher works with full speed
 
-//Initializing the boolean so the launcher is not moving initially
-bool fullWheelOn = false; //makes the launcher go full speed
-bool halfWheelOn = false; //makes the launcher og half speed
+//Initializing the boolean so hat the launcher will not move without input
+bool fullWheelOn = false; //when this boolean is true the launcher go full speed
+bool halfWheelOn = false; //when this boolean is true the launcher go half speed
 
-//Set fullWheelOn as true (moves in full speed)
-//Storing Boolean value
+//Sets fullWheelOn as true (moves in full speed)
+//This function stores Boolean value into a varibale -> full wheel on and half wheel on
 void setFullFlyWheel(bool on)
 {
 	if(on == true)//if the parameter is ture
 	{
 		fullWheelOn = true; //set full wheel on as true
-		halfWheelOn = false; //stops the halfwheel on commend to prevent code colision
+		halfWheelOn = false; //This will prevent code colision by making one function turn off when other is on
 	}
 	else
 	{
@@ -85,7 +86,7 @@ void halfFlyWheel()
 	if(halfWheelOn == true) //when halfWheelOn boolean is true(when it is moving)
 	{
 		motor[leftTopLauncher] = 75; //was 95
-		motor[leftBottomLauncher] = 75;//higher the value, faster the motor, further the launch distance
+		motor[leftBottomLauncher] = 75;
 		motor[rightTopLauncher] = 75;
 		motor[rightBottomLauncher] = 75;
 	}
