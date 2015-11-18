@@ -6,19 +6,19 @@ By [Juyeong Lee](https://github.com/khungryapple)
 
 ## Basic functions:
 
-Drive:
+<b>Drive:</b>
 ```erb
 Uses Two Motor (might be adding two extra motor for extra power)
 ```
-Launcher(Fly Wheel): 
+<b>Launcher(Fly Wheel):</b> 
 ```erb
 Uses Two Motor(Left and Right with bottom and top motor)
 ```
-Intake:
+<b>Intake:</b>
 ```erb
 Uses two motor to intake the ball(Will be added before the Granada Comp)
 ```
-Autonomous:
+<b>Autonomous:</b>
 ```erb
 Going backward then Shooting the Ball')
 ```
