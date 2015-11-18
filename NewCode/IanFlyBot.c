@@ -33,10 +33,10 @@ task autonomous() //autonomous code
 	AutonomousCodePlaceholderForTesting(); //filler code
 }
 
-task usercontrol()//uset control code
+task usercontrol()//user control code
 {
 
-	while (true) //needed code; do not touch this
+	while (true) //Do not touch this code - is necessary in order to run the code
 	{
 		//set motor value
 		setForwardValue(vexRT[Ch2]); //sets forward value of drive to y axis joystick
@@ -56,9 +56,9 @@ task usercontrol()//uset control code
 
 		//activates the FlyWheel Function
 		fullFlyWheel(); //launcher moves with full speed
-		halfFlyWheel(); //launcehr moves with half of the speed
+		halfFlyWheel(); //launcher moves with half of the speed
 	}
 }
 
-//Updated on 11/18/2015, adding header and coment to the code
+//Updated on 11/18/2015, adding two motor for the intake roller
 //Updated by: Juyeong Lee
