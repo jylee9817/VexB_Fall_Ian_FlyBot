@@ -9,18 +9,22 @@ By [Juyeong Lee](https://github.com/khungryapple)
 <b>Drive:</b>
 ```erb
 Uses Two Motor (might be adding two extra motor for extra power)
+Turn and Forward only
 ```
 <b>Launcher(Fly Wheel):</b> 
 ```erb
-Uses Two Motor(Left and Right with bottom and top motor)
+Uses Four Motor(Left and Right with bottom and top motor)
+Works like pitching machine
 ```
 <b>Intake:</b>
 ```erb
 Uses two motor to intake the ball(Will be added before the Granada Comp)
+It is going to be consisted of two parts, one that moves the wheel and one 
+that moves the rail. The motors will be going in a opposite direction
 ```
 <b>Autonomous:</b>
 ```erb
-Going backward then Shooting the Ball')
+Going backward, intakes the ball, then Shoots the Ball
 ```
 ## Last Update on 11/18/2015:
 
