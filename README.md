@@ -7,19 +7,19 @@ By [Juyeong Lee](https://github.com/khungryapple)
 ## Basic functions:
 
 Drive:
-```console
+```erb
 Uses Two Motor (might be adding two extra motor for extra power)
 ```
 Launcher(Fly Wheel): 
-```console
+```erb
 Uses Two Motor(Left and Right with bottom and top motor)
 ```
 Intake:
-```console
+```erb
 Uses two motor to intake the ball(Will be added before the Granada Comp)
 ```
 Autonomous:
-```console
+```erb
 Going backward then Shooting the Ball')
 ```
 ## Last Update on 11/18/2015:
