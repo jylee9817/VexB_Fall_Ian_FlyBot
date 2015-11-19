@@ -22,6 +22,7 @@
 #include "IanDrive.h"
 //#include "IanFlyWheel.h" -Manual luncher code-
 #include "IanFlyBot2.h"
+#include "IanAutonomous.h"
 
 void pre_auton() //pre-autonomous code
 {
@@ -66,5 +67,5 @@ task usercontrol()//user control code
 	}
 }
 
-//Updated on 11/18/2015, added extra else if in fullFlyWheel and halfFlyWheel function
+//Updated on 11/19/2015, added Autonomous code file
 //Updated by: Juyeong Lee
