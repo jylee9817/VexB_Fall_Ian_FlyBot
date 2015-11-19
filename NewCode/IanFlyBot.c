@@ -31,6 +31,7 @@ void pre_auton() //pre-autonomous code
 task autonomous() //autonomous code
 {
 	AutonomousCodePlaceholderForTesting(); //filler autonomous code, will be replaced with real auto code
+	//autoDefault();
 }
 
 task usercontrol()//user control code
@@ -59,6 +60,9 @@ task usercontrol()//user control code
 		//activates the FlyWheel Function
 		fullFlyWheel(); //launcher moves with full speed based on the boolean above
 		halfFlyWheel(); //launcher moves with half of the speed based on the boolean above
+
+		//intake
+		//intakeRoller(vexRT[Btn]);
 	}
 }
 
