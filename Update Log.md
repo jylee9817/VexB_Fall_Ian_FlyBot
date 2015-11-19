@@ -1,4 +1,4 @@
-## Last Update on 11/19/2015:
+# Last Update on 11/19/2015:
 - <b>10/28/2015:</b> Added function that stores boolean to variable `halfWheelOn` and `fullWheelOn`
 
 - <b>10/29/2015.1:</b> Inverted left bottom and right top Motor
