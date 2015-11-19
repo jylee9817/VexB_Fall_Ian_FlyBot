@@ -62,5 +62,5 @@ task usercontrol()//user control code
 	}
 }
 
-//Updated on 11/18/2015, adding two motor for the intake roller
+//Updated on 11/18/2015, added extra else if in fullFlyWheel and halfFlyWheel function
 //Updated by: Juyeong Lee

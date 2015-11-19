@@ -45,3 +45,5 @@ Going backward, intakes the ball, then Shoots the Ball
 - <b>11/18/2015.1:</b> Adding two motor for the intake roller
 
 - <b>11/18/2015.2:</b> Revision of the comment to make it more understandable
+
+- <b>11/18/2015.3</b> Added extra else if in fullFlyWheel and halfFlyWheel function
