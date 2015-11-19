@@ -71,12 +71,16 @@ void fullFlyWheel()
 		motor[rightTopLauncher] = 110;
 		motor[rightBottomLauncher] = 110;
 	}
-	else //when fullWheelOn boolean is true(when it is not moving)
+	else if (fullWheelOn == false)//when fullWheelOn boolean is true(when it is not moving)
 	{
 		motor[leftTopLauncher] = 0;
 		motor[leftBottomLauncher] = 0;
 		motor[rightTopLauncher] = 0;
 		motor[rightBottomLauncher] = 0;
+	}
+	else
+	{
+		return;
 	}
 }
 
@@ -90,11 +94,15 @@ void halfFlyWheel()
 		motor[rightTopLauncher] = 75;
 		motor[rightBottomLauncher] = 75;
 	}
-	else //when halfWheelOn boolean is false(when it is not moving)
+	else if(halfWheelOn == false)//when halfWheelOn boolean is false(when it is not moving)
 	{
 		motor[leftTopLauncher] = 0;
 		motor[leftBottomLauncher] = 0;
 		motor[rightTopLauncher] = 0;
 		motor[rightBottomLauncher] = 0;
+	}
+	else
+	{
+		return;
 	}
 }
