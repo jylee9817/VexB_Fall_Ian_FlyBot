@@ -26,5 +26,5 @@ that moves the rail. The motors will be going in a opposite direction
 Going backward, intakes the ball, then Shoots the Ball
 ```
 
-## Last Update on 11/19/2015:
-<b>11/19/2015</b> Added Autonomous code to the file and relocated the old FlyWheel file to the Old Code folder
+### Last Update on 11/19/2015:
+Added Autonomous code to the file and relocated the old FlyWheel file to the Old Code folder
