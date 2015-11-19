@@ -26,11 +26,11 @@ that moves the rail. The motors will be going in a opposite direction
 Going backward, intakes the ball, then Shoots the Ball
 ```
 ## Last Update on 11/18/2015:
-- <b>10/28/2015:</b> Added function that stores boolean to variable HalfWheelOn and FullWheelOn
+- <b>10/28/2015:</b> Added function that stores boolean to variable `halfWheelOn` and `fullWheelOn`
 
 - <b>10/29/2015.1:</b> Inverted left bottom and right top Motor
 
-- <b>10/29/2015.2:</b> Changed return value of Half Wheel On and Full Wheel On
+- <b>10/29/2015.2:</b> Changed return value of `halfWheelOn` and `fullWheelOn`
 
 - <b>11/5/2015:</b> Created old code file and new code file becuase the old code is not fully functional
 
