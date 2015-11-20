@@ -14,10 +14,10 @@ void setFullFlyWheel(bool on)
 		fullWheelOn = true; //set full wheel on as true
 		halfWheelOn = false; //This will prevent code colision by making one function turn off when other is on
 	}
-	else
+	/*else
 	{
 		return; //returns nothing because the fucniton does not have any return type
-	}
+	}*/
 }
 
 //set halfWheelOn as true (moves in half speed)
@@ -27,10 +27,6 @@ void setHalfFlyWheel(bool on)
 	{
 		halfWheelOn = true;
 		fullWheelOn = false;
-	}
-	else
-	{
-		return;
 	}
 }
 
@@ -42,10 +38,10 @@ void setFullFlyWheelOff(bool off)
 	{
 		fullWheelOn = false;
 	}
-	else
+	/*else
 	{
 		return;
-	}
+	}*/
 }
 //set halfWheelOn as false (launcher stops moving)
 void setHalfFlyWheelOff(bool off)
@@ -53,10 +49,6 @@ void setHalfFlyWheelOff(bool off)
 	if(off == true)
 	{
 		halfWheelOn = false;
-	}
-	else
-	{
-		return;
 	}
 }
 
@@ -78,10 +70,6 @@ void fullFlyWheel()
 		motor[rightTopLauncher] = 0;
 		motor[rightBottomLauncher] = 0;
 	}
-	else
-	{
-		return;
-	}
 }
 
 //launches ball with the half of the speed
@@ -101,8 +89,8 @@ void halfFlyWheel()
 		motor[rightTopLauncher] = 0;
 		motor[rightBottomLauncher] = 0;
 	}
-	else
+	/*else
 	{
 		return;
-	}
+	}*/
 }
