@@ -14,10 +14,6 @@ void setFullFlyWheel(bool on)
 		fullWheelOn = true; //set full wheel on as true
 		halfWheelOn = false; //This will prevent code colision by making one function turn off when other is on
 	}
-	/*else
-	{
-		return; //returns nothing because the fucniton does not have any return type
-	}*/
 }
 
 //set halfWheelOn as true (moves in half speed)
@@ -38,10 +34,6 @@ void setFullFlyWheelOff(bool off)
 	{
 		fullWheelOn = false;
 	}
-	/*else
-	{
-		return;
-	}*/
 }
 //set halfWheelOn as false (launcher stops moving)
 void setHalfFlyWheelOff(bool off)
@@ -58,10 +50,12 @@ void fullFlyWheel()
 {
 	if(fullWheelOn == true) //when fullWheelOn boolean is true(when it is moving)
 	{
-		motor[leftTopLauncher] = 127; //was 110
-		motor[leftBottomLauncher] = 127; //higher the value, faster the motor, further the launch distance
-		motor[rightTopLauncher] = 127;
-		motor[rightBottomLauncher] = 127;
+		motor[leftTopLauncher] = 100; //was 110
+		motor[leftBottomLauncher] = 100; //higher the value, faster the motor, further the launch distance
+		motor[rightTopLauncher] = 100;
+		motor[rightBottomLauncher] = 100;
+		motor[middleRightLauncher] = 100;
+		motor[middleLeftLauncher] = 100;
 	}
 	else if (fullWheelOn == false)//when fullWheelOn boolean is true(when it is not moving)
 	{
@@ -69,6 +63,8 @@ void fullFlyWheel()
 		motor[leftBottomLauncher] = 0;
 		motor[rightTopLauncher] = 0;
 		motor[rightBottomLauncher] = 0;
+		motor[middleRightLauncher] = 0;
+		motor[middleLeftLauncher] = 0;
 	}
 }
 
@@ -77,10 +73,12 @@ void halfFlyWheel()
 {
 	if(halfWheelOn == true) //when halfWheelOn boolean is true(when it is moving)
 	{
-		motor[leftTopLauncher] = 100; //was 75
-		motor[leftBottomLauncher] = 100;
-		motor[rightTopLauncher] = 100;
-		motor[rightBottomLauncher] = 100;
+		motor[leftTopLauncher] = 80; //was 100
+		motor[leftBottomLauncher] = 80;
+		motor[rightTopLauncher] = 80;
+		motor[rightBottomLauncher] = 80;
+		motor[middleRightLauncher] = 80;
+		motor[middleLeftLauncher] = 80;
 	}
 	else if(halfWheelOn == false)//when halfWheelOn boolean is false(when it is not moving)
 	{
@@ -88,9 +86,7 @@ void halfFlyWheel()
 		motor[leftBottomLauncher] = 0;
 		motor[rightTopLauncher] = 0;
 		motor[rightBottomLauncher] = 0;
+		motor[middleRightLauncher] = 0;
+		motor[middleLeftLauncher] = 0;
 	}
-	/*else
-	{
-		return;
-	}*/
 }
