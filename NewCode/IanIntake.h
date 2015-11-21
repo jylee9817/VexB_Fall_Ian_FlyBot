@@ -1,18 +1,19 @@
 //intake roller
 
 //sets intake motor value
-void intakeRoller(bool on)//has to press  to move the intake
-{
-	if(on == true)//when parameter is true, the intake moves
-	{
-		motor[wheelIntakeMotor] = 127; //wheel intake
-		motor[railIntakeMotor] = -127; //rail intake
-	}
-	//the motor will move in full speed. Decreasing the value will slow down the motor speed or the intake speed
 
-	else //when parameter is false, the intake stops
+void conveyor()
+{
+	if(vexRT[Btn8R] == 1)
 	{
-		motor[wheelIntakeMotor] = 0;
-		motor[railIntakeMotor] = 0;
+		motor[intakeMotor] = 127;
+	}
+	else if(vexRT[Btn8L] == 1)
+	{
+		motor[intakeMotor] = -127;
+	}
+	else if(vexRT[Btn8D] == 1)
+	{
+		motor[intakeMotor] = 0;
 	}
 }
